@@ -1,4 +1,3 @@
-
 public class Index {
     
     public static int linear_search(int nums[] , int target) {
@@ -15,7 +14,7 @@ public class Index {
     public static void main(String[] args) {
         int [] nums = {10,0,-1,5,-7,33,9};
 
-        int target = -7;
+        int target = -77;
         int result = linear_search(nums,target);
 
         if(result != -1) {
